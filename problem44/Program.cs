@@ -9,7 +9,7 @@ int InputInt(string message)
 string GetSeriesFibonacci(int num)
 {
   if (num <= 0) return "ряд Фибоначчи не существует";
-  if (num == 1) return "1";
+  if (num == 1) return "0";
   int f1 = 0;
   int f2 = 1;
   int fTmp = 0;
